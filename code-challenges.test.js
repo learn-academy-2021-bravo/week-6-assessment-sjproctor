@@ -23,7 +23,7 @@ var people = [
   { name: "zaphod beeblebrox", occupation: "president of the galaxy" },
   { name: "arthur dent", occupation: "radio employee" }
 ]
-// Expected output: ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is a president of the galaxy.", "Arthus Dent is a radio employee."]
+// Expected output: ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is a president of the galaxy.", "Arthur Dent is a radio employee."]
 
 
 
