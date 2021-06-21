@@ -9,7 +9,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: Generate a migration to add to the Sightings model, foreign key on the Sightings model (belongs_to), foreign key would be called animal_id
 
 
 
@@ -17,7 +17,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: Delete, Update, Show - need to find one thing from the db
 
 
 
@@ -25,25 +25,25 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: resource - model, routes, controller, migration - template for changes to the db, model - model class, migration, scaffold - model, routes, controller, views, controllers - controller, view folder
 
 
 
 4. Consider the Rails routes below. What is the name of the controller method that would be called by each route? What action would each of the controller methods perform?
 
-method="GET"    /students          
+method="GET"    /students      index - get all the students      
 
-method="GET"    /students/2  
+method="GET"    /students/2    show - gets just one student, with an id of 2
 
-method="GET"    /students/new
+method="GET"    /students/new  new - display a form
 
-method="GET"    /students/edit/2    
+method="GET"    /students/edit/2    edit - form for editing the student with an id of 2
 
-method="POST"   /students/       
+method="POST"   /students/     create - add a new student to the db     
 
-method="PATCH"  /students/2      
+method="PATCH"  /students/2    update - updating the info of the student with an id of 2
 
-method="DELETE" /students/2      
+method="DELETE" /students/2    destroy - delete the student with the id of 2 
 
 
 
