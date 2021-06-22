@@ -18,6 +18,7 @@
 
 // a) Create a test with an expect statement using the variable provided.
 
+
 describe("nameAndOccupation", () => {
   test("returns an array with a sentence about each person with their names capitalized", () => {
     var people = [
@@ -29,6 +30,7 @@ describe("nameAndOccupation", () => {
     expect(nameAndOccupation(people)).toEqual(["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is a president of the galaxy.", "Arthur Dent is a radio employee."])
   })
 })
+
 
 // b) Create the function that makes the test pass.
 
